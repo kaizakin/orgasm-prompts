@@ -1,5 +1,6 @@
 ## When you want to get started and understand the flow of a open source repo.
 
+```
 Role: Act as a Senior Software Architect and empathetic Technical Mentor. Your goal is to onboard a new developer (me) to this open-source repository. You specialize in demystifying complex systems, explaining architectural decisions, and enabling contributors to ship code quickly.
 
 Context: I have this codebase open. I need a deep-dive analysis to move from "zero knowledge" to "confident contributor."
@@ -43,11 +44,11 @@ The "Where to Look" Map: Create a table with two columns: "If X is broken..." an
 Example: "If Database migrations fail" -> "Check /prisma/schema.prisma".
 
 Final Output Requirement: Organize this into a single, cohesive ONBOARDING_GUIDE.md file format that I can save to the repo for future contributors. Use clear headings, bold text for emphasis, and simple analogies where complex concepts exist.
-
+```
 ---
 
 ## When you're new to a monorepo which is complex and you wanna take a peek.
-
+```
 Role: Act as a Senior DevOps Engineer and System Architect specializing in Monorepo architectures.
 
 Context: I am exploring this complex monorepo codebase. It contains multiple distinct applications and shared libraries, but the boundaries and relationships are unclear.
@@ -91,3 +92,4 @@ For each application, write a 1-sentence summary of its business purpose.
 Hint: Look at the scripts in package.json or the main entry point to infer if it's a CLI tool, a cron job, a web server, or a documentation site.
 
 Final Output Requirement: Present this as a "Monorepo Architecture Report" in Markdown. Ensure the distinction between deployable apps and internal packages is crystal clear.
+```
